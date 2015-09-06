@@ -1,0 +1,727 @@
+Dependencies for Project 'ble_app_proximity', Target 'nrf51822_xxaa_s110 (256K)': (DO NOT MODIFY !)
+F (.\Source\templates\system_nrf51.c)(0x5243D3BA)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+F (.\Source\templates\arm\arm_startup_nrf51.s)(0x5243D3BA)(--cpu Cortex-M0 --li -g --apcs=interwork -I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (..\main.c)(0x54D211A6)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (..\arm\ble_includes.h)(0x54D07F96)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_hci.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\ble\ble_advdata.h)(0x5243EB66)
+I (.\Include\ble\ble_services\ble_tps.h)(0x5243EB68)
+I (.\Include\ble\ble_services\ble_ias.h)(0x5243EB68)
+I (.\Include\ble\ble_services\ble_lls.h)(0x5243EB68)
+I (.\Include\ble\ble_services\ble_bas.h)(0x5243EB68)
+I (.\Include\ble\ble_conn_params.h)(0x5243EB68)
+I (.\Include\ble\ble_eval_board_pins.h)(0x54D0721E)
+I (.\Include\ble\ble_sensorsim.h)(0x5243EB68)
+I (.\Include\ble\ble_stack_handler.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (.\Include\app_common\app_scheduler.h)(0x52451E74)
+I (.\Include\app_common\app_timer.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\Include\ble\ble_bondmngr.h)(0x5243EB66)
+I (.\Include\ble\ble_services\ble_ias_c.h)(0x5243EB68)
+I (.\Include\app_common\app_gpiote.h)(0x52451E74)
+I (.\Include\app_common\app_button.h)(0x54D073F8)
+I (.\Include\ble\ble_radio_notification.h)(0x5243EB66)
+I (..\ble_flash.h)(0x54ACDB43)
+I (.\Include\ble\ble_debug_assert_handler.h)(0x5243EB66)
+I (.\Include\ble\ble_error_log.h)(0x5243EB68)
+I (.\Include\ble\ble_nrf6310_pins.h)(0x54ACD768)
+I (.\Include\ble\ble_flash.h)(0x5243EB68)
+I (..\ble_nus.h)(0x54A9509B)
+I (.\Include\simple_uart.h)(0x54ACD66A)
+I (.\Include\twi_master.h)(0x54A8D784)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+I (..\twi_master_config.h)(0x54D0CCAB)
+I (..\hardware\htu21d\htu21d.h)(0x54A8DCED)
+I (..\hardware\oled\oled.h)(0x54D065F2)
+I (..\hardware\rtc\rtc0.h)(0x54A913F9)
+I (..\hardware\wdt\wdt.h)(0x54A92050)
+I (..\communication_procotol.h)(0x54D0C957)
+I (..\arm\ble_app_main.h)(0x54D08703)
+F (.\ble_app_main.c)(0x54D3324D)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_app_main.o --omf_browse .\_build\ble_app_main.crf --depend .\_build\ble_app_main.d)
+I (ble_app_main.h)(0x54D08703)
+I (ble_includes.h)(0x54D07F96)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_hci.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\ble\ble_advdata.h)(0x5243EB66)
+I (.\Include\ble\ble_services\ble_tps.h)(0x5243EB68)
+I (.\Include\ble\ble_services\ble_ias.h)(0x5243EB68)
+I (.\Include\ble\ble_services\ble_lls.h)(0x5243EB68)
+I (.\Include\ble\ble_services\ble_bas.h)(0x5243EB68)
+I (.\Include\ble\ble_conn_params.h)(0x5243EB68)
+I (.\Include\ble\ble_eval_board_pins.h)(0x54D0721E)
+I (.\Include\ble\ble_sensorsim.h)(0x5243EB68)
+I (.\Include\ble\ble_stack_handler.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (.\Include\app_common\app_scheduler.h)(0x52451E74)
+I (.\Include\app_common\app_timer.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\Include\ble\ble_bondmngr.h)(0x5243EB66)
+I (.\Include\ble\ble_services\ble_ias_c.h)(0x5243EB68)
+I (.\Include\app_common\app_gpiote.h)(0x52451E74)
+I (.\Include\app_common\app_button.h)(0x54D073F8)
+I (.\Include\ble\ble_radio_notification.h)(0x5243EB66)
+I (..\ble_flash.h)(0x54ACDB43)
+I (.\Include\ble\ble_debug_assert_handler.h)(0x5243EB66)
+I (.\Include\ble\ble_error_log.h)(0x5243EB68)
+I (.\Include\ble\ble_nrf6310_pins.h)(0x54ACD768)
+I (.\Include\ble\ble_flash.h)(0x5243EB68)
+I (..\ble_nus.h)(0x54A9509B)
+I (.\Include\simple_uart.h)(0x54ACD66A)
+I (.\Include\twi_master.h)(0x54A8D784)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+I (..\twi_master_config.h)(0x54D0CCAB)
+I (..\hardware\htu21d\htu21d.h)(0x54A8DCED)
+I (..\hardware\oled\oled.h)(0x54D065F2)
+I (..\hardware\rtc\rtc0.h)(0x54A913F9)
+I (..\hardware\wdt\wdt.h)(0x54A92050)
+I (..\communication_procotol.h)(0x54D0C957)
+F (..\communication_procotol.c)(0x54D09632)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\communication_procotol.o --omf_browse .\_build\communication_procotol.crf --depend .\_build\communication_procotol.d)
+I (..\communication_procotol.h)(0x54D0C957)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (..\ble_nus.h)(0x54A9509B)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (..\hardware\oled\oled.h)(0x54D065F2)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (..\hardware\rtc\rtc0.h)(0x54A913F9)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (.\ble_includes.h)(0x54D07F96)()
+F (..\ble_nus.c)(0x549C14B0)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_nus.o --omf_browse .\_build\ble_nus.crf --depend .\_build\ble_nus.d)
+I (..\ble_nus.h)(0x54A9509B)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (.\Source\ble\ble_services\ble_bas.c)(0x5243EB5E)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_bas.o --omf_browse .\_build\ble_bas.crf --depend .\_build\ble_bas.d)
+I (.\Include\ble\ble_services\ble_bas.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nordic_common.h)(0x52451E72)
+F (.\Source\ble\ble_services\ble_ias.c)(0x5243EB60)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_ias.o --omf_browse .\_build\ble_ias.crf --depend .\_build\ble_ias.d)
+I (.\Include\ble\ble_services\ble_ias.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+F (.\Source\ble\ble_services\ble_ias_c.c)(0x5243EB60)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_ias_c.o --omf_browse .\_build\ble_ias_c.crf --depend .\_build\ble_ias_c.d)
+I (.\Include\ble\ble_services\ble_ias_c.h)(0x5243EB68)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (.\Source\ble\ble_services\ble_lls.c)(0x5243EB5E)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_lls.o --omf_browse .\_build\ble_lls.crf --depend .\_build\ble_lls.d)
+I (.\Include\ble\ble_services\ble_lls.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble_hci.h)(0x522418D8)
+F (.\Source\ble\ble_services\ble_tps.c)(0x5243EB5E)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_tps.o --omf_browse .\_build\ble_tps.crf --depend .\_build\ble_tps.d)
+I (.\Include\ble\ble_services\ble_tps.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\hardware\htu21d\htu21d.c)(0x54D0CAA5)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\htu21d.o --omf_browse .\_build\htu21d.crf --depend .\_build\htu21d.d)
+I (..\hardware\htu21d\htu21d.h)(0x54A8DCED)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\twi_master.h)(0x54A8D784)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (D:\keilMDK\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\ble_nus.h)(0x54A9509B)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+F (..\hardware\oled\oled.c)(0x54D06DA5)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\oled.o --omf_browse .\_build\oled.crf --depend .\_build\oled.d)
+I (..\hardware\oled\oled.h)(0x54D065F2)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (..\hardware\oled\font.h)(0x54AB6CE2)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (..\hardware\rtc\rtc0.h)(0x54A913F9)
+I (..\hardware\htu21d\htu21d.h)(0x54A8DCED)
+F (..\hardware\rtc\rtc0.c)(0x54A913F8)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\rtc0.o --omf_browse .\_build\rtc0.crf --depend .\_build\rtc0.d)
+I (..\hardware\rtc\rtc0.h)(0x54A913F9)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+F (..\hardware\wdt\wdt.c)(0x54A91FD7)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\wdt.o --omf_browse .\_build\wdt.crf --depend .\_build\wdt.d)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (..\hardware\wdt\wdt.h)(0x54A92050)
+F (..\nrf_delay.c)(0x54A8CBF4)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+F (..\twi_sw_master.c)(0x54A8D787)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\twi_sw_master.o --omf_browse .\_build\twi_sw_master.crf --depend .\_build\twi_sw_master.d)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\twi_master.h)(0x54A8D784)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (..\twi_master_config.h)(0x54D0CCAB)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (.\Source\ble\ble_advdata.c)(0x5243EB4C)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (.\Include\ble\ble_advdata.h)(0x5243EB66)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+F (.\Source\ble\ble_bondmngr.c)(0x5243EB4C)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_bondmngr.o --omf_browse .\_build\ble_bondmngr.crf --depend .\_build\ble_bondmngr.d)
+I (.\Include\ble\ble_bondmngr.h)(0x5243EB66)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\nrf_assert.h)(0x52451E74)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (..\ble_flash.h)(0x54ACDB43)
+I (..\ble_bondmngr_cfg.h)(0x52451DEC)
+F (.\Source\ble\ble_conn_params.c)(0x5243EB4E)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (.\Include\ble\ble_conn_params.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\ble\softdevice\ble_hci.h)(0x522418D8)
+I (.\Include\app_common\app_timer.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\Include\app_common\app_scheduler.h)(0x52451E74)
+F (.\Source\ble\ble_debug_assert_handler.c)(0x5243EB4C)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_debug_assert_handler.o --omf_browse .\_build\ble_debug_assert_handler.crf --depend .\_build\ble_debug_assert_handler.d)
+I (.\Include\ble\ble_debug_assert_handler.h)(0x5243EB66)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\ble\ble_error_log.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\ble\ble_nrf6310_pins.h)(0x54ACD768)
+I (.\Include\ble\ble_flash.h)(0x5243EB68)
+I (.\Include\nordic_common.h)(0x52451E72)
+F (.\Source\ble\ble_error_log.c)(0x5243EB4C)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_error_log.o --omf_browse .\_build\ble_error_log.crf --depend .\_build\ble_error_log.d)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\ble\ble_error_log.h)(0x5243EB68)
+I (.\Include\ble\ble_nrf6310_pins.h)(0x54ACD768)
+I (.\Include\ble\ble_flash.h)(0x5243EB68)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (..\ble_flash.h)(0x54ACDB43)
+F (.\Source\ble\ble_flash.c)(0x5243EB4E)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_flash.o --omf_browse .\_build\ble_flash.crf --depend .\_build\ble_flash.d)
+I (..\ble_flash.h)(0x54ACDB43)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+F (.\Source\ble\ble_radio_notification.c)(0x5243EB4C)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_radio_notification.o --omf_browse .\_build\ble_radio_notification.crf --depend .\_build\ble_radio_notification.d)
+I (.\Include\ble\ble_radio_notification.h)(0x5243EB66)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+F (.\Source\ble\ble_stack_handler.c)(0x5243EB60)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_stack_handler.o --omf_browse .\_build\ble_stack_handler.crf --depend .\_build\ble_stack_handler.d)
+I (.\Include\ble\ble_stack_handler.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_l2cap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\app_common\app_scheduler.h)(0x52451E74)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\nrf_assert.h)(0x52451E74)
+F (.\Source\app_common\app_button.c)(0x52451E6A)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
+I (.\Include\app_common\app_button.h)(0x54D073F8)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\app_common\app_scheduler.h)(0x52451E74)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nordic_common.h)(0x52451E72)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\app_common\app_gpiote.h)(0x52451E74)
+I (.\Include\app_common\app_timer.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (.\Source\app_common\app_gpiote.c)(0x54AB4256)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\app_gpiote.o --omf_browse .\_build\app_gpiote.crf --depend .\_build\app_gpiote.d)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\Include\app_common\app_gpiote.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nrf_gpio.h)(0x52451E74)
+F (.\Source\app_common\app_timer.c)(0x54AB4236)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (.\Include\app_common\app_timer.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_scheduler.h)(0x52451E74)
+I (D:\keilMDK\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+F (.\Source\ble\ble_services\ble_srv_common.c)(0x5243EB60)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (.\Include\ble\ble_services\ble_srv_common.h)(0x5243EB68)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\ble\softdevice\ble_types.h)(0x522418D8)
+I (.\Include\app_common\app_util.h)(0x52451E74)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\app_common\app_error.h)(0x549C072A)
+I (.\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (.\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (.\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (D:\keilMDK\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\Include\nordic_common.h)(0x52451E72)
+F (.\Source\simple_uart\simple_uart.c)(0x54CF0EE7)(-c --cpu Cortex-M0 --li -g -O3 -Otime --apcs=interwork --enum_is_int -I.. -I..\hardware -I..\hardware\htu21d -I..\hardware\oled -I..\hardware\rtc -I..\hardware\wdt -I.\Include -I.\Include\app_common -I.\Include\ble -I.\Include\ble\ble_services -I.\Include\ble\softdevice -I..\arm --c99-I D:\keilMDK\ARM\RV31\INC-I D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilMDK\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (D:\keilMDK\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (.\Include\nrf.h)(0x5243D3BA)
+I (.\Include\compiler_abstraction.h)(0x52451E74)
+I (.\Include\nrf51.h)(0x5243D3B6)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (.\Include\system_nrf51.h)(0x5243D3BA)
+I (.\Include\nrf51_bitfields.h)(0x5243D3B8)
+I (.\Include\nrf51_deprecated.h)(0x5243D3BA)
+I (.\Include\simple_uart.h)(0x54ACD66A)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (.\Include\nrf_delay.h)(0x54A8C647)
+I (.\Include\nrf_gpio.h)(0x52451E74)

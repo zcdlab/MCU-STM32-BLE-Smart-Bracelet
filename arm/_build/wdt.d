@@ -1,0 +1,10 @@
+.\_build\wdt.o: ..\hardware\wdt\wdt.c
+.\_build\wdt.o: .\Include\nrf51.h
+.\_build\wdt.o: D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+.\_build\wdt.o: D:\keilMDK\ARM\ARMCC\bin\..\include\stdint.h
+.\_build\wdt.o: D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h
+.\_build\wdt.o: D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h
+.\_build\wdt.o: .\Include\system_nrf51.h
+.\_build\wdt.o: .\Include\nrf51_bitfields.h
+.\_build\wdt.o: D:\keilMDK\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+.\_build\wdt.o: ..\hardware\wdt\wdt.h
